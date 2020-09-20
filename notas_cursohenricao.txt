@@ -1,0 +1,75 @@
+---INTRODUÇÃO A BOAS PRÁTICAS EM UX DESING POR FABRÍCIO TEIXEIRA, CHECKLIST---
+
+
+Reduzir, revelar, simplificar, padronizar, Adiar, priorização, testar, analisar
+
+Acionável: Direcionar, explicar, indicar, incentivar, situar, informar
+
+Inteligência: Destacar, prevenir, tolerar, customizar, automatizar, extrapolar,  
+
+Agradabilidade: humanizar, considerar, alinhamento, facilitar, agilizar
+
+relevancia: entregar, acompanhamento, refletir, consulta, escolha, *melhorias*
+
+			---REGRAS PARA ESCOLHA DE CORES----
+COLOQUE AS CORES NO ASSET (ativos)
+
+Primeiramente escolhe-se as cores predominantes tiradas, por exemplo, da logo.
+Secundarimanente, cria-se mais duas cores: uma mais clara e outra mais escura.
+Clara: tira-se 15 de brilho;
+Escura: tira-se 15 de saturação.
+
+			---SITES PARA FERRAMENTAS EXTRAS---
+https://sneakpeekit.com/--> site para imprimir modelos de browser e celulares para desing
+
+UI free: https://freebiesui.com/xd-freebies/
+
+picular.com ---> google de cores
+
+Fontes: Google Fonts
+
+tamanho de texto: modularscale.com
+(escolher razão 3:4 e 16px para computador; 12px para dispositivos móveis)
+a partir do tamanho da fonte, é possivel descobrir a altura de linha:
+1. em casos menores (parágrafos e afins): multiplica-se o tamanho da fonte por 1,5
+2. em casos maiores (títulos e subtítulos): multiplica-se o tamanho da fonte por 1,2 ou 1,1 (avalia-se o caso)
+
+constat checker --> checar o constrate entre fundo e texto a fim de garantir que seja legivel
+
+Banco de imagem 1:
+pexels.com
+
+Banco de Imagem 2:
+pixabay.com
+
+Banco de Imagem 3:
+unsplash.com
+
+tipos de borda:
+https://www.w3schools.com/css/css_border.asp
+
+tipos de fonte:
+https://www.w3schools.com/cssref/css_websafe_fonts.asp
+
+Manipulação de String, JS:
+https://www.w3schools.com/jsref/jsref_obj_string.asp
+
+manipulação de JS:
+https://www.w3schools.com/jsref/jsref_obj_date.asp
+
+Eventos no <div>:
+https://www.w3schools.com/jsref/dom_obj_event.asp
+
+---CONCEITOS--
+MVC - MODEL VIEW CONTROLLER (ARQUITETURA DO PROJETO)
+
+--Como criar aplicativos com node: sanando a parte mais chata!---
+criar pasta central chamada src e então, subpastas com o nome de: config, controller, middlewares, model, routes.
+Na config, um arquivo chamado database.js para fazer a ligação com ele: mongo, firebase e afins.
+Na model, um arquivo chamado (feature do app)Model.js que crie o Schema (SQUEMA) de quais informações serão coletadas pelo app, macadress, nome, descrições e afins. 
+Na controller, um arquivo chamado (feature do app)Controller.js que possua o modelo importanto, portanto, "require('../model/Model')" e a classe que conterá as rotas para essa mesma feature : criar, atualizar, deletar, filtros e etc.
+Salienta que as funções são assincronas e o que ela almeja pegar no servidor tem "await", ou seja, ele espera pegar e devolver no servidor para não dar problema de renderização.
+(GET é sempre usando como parametro)
+No middlwerase, será colocado qualquer validação que deverá ser feita: checagem se houve a passagem de informação, checagem de número de telefone e afins.
+No routes, será colocado as rotas propriamente dito. Cria um arquivo chamado (feauture do app)Routes.js onde ele requere o controller e as validações. Além disso, coloca-se as rotas
+por meio da sehguinte estrutura: router.post/get/delete('/algumacoisa/algumacoisa/', validação(se houver), (feauture do app)Controller.nomedafuncao)
