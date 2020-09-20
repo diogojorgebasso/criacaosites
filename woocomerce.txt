@@ -1,0 +1,9 @@
+Status Woocomerce:
+aguardando: o pedido foi processado, tirou o pedido do estoque.
+pagamento pendente: o cliente escolheu boleto ou algo assim, mas não tirou do estoque.
+processando: o lado do lojista, embalando para enviar para o correio ==> cliente já pagou.
+concluído: despachado e chegou para o cliente
+cancelado: cliente fez o pedido e não pagou faz tempo, ou o lojista cancelou por não ter estoque suficiente,
+reembolsado: devolução ao cliente
+malsucedido: pagamento foi recusado pela operadora
+concluído, reembolsado é o lojista que coloca.
