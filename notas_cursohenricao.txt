@@ -28,7 +28,7 @@ picular.com ---> google de cores
 
 Fontes: Google Fonts
 
-tamanho de texto: modularscale.com
+tamanho de texto: https://www.modularscale.com/
 (escolher razão 3:4 e 16px para computador; 12px para dispositivos móveis)
 a partir do tamanho da fonte, é possivel descobrir a altura de linha:
 1. em casos menores (parágrafos e afins): multiplica-se o tamanho da fonte por 1,5
