@@ -30,4 +30,7 @@ Eu pessoalmente recomendo alguns, porque utilizava-os na [Ensinu](https://github
 * Elementor (a versão paga)
 * WP Forms
 * Cookie Notice
+* Tawk.to
+
+Boa diversão na construção de seu novo site.
 
