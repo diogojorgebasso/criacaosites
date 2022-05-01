@@ -31,6 +31,7 @@ Eu pessoalmente recomendo alguns, porque utilizava-os na [Ensinu](https://github
 * WP Forms
 * Cookie Notice
 * Tawk.to
+* Web Stories
 
 Boa diversão na construção de seu novo site.
 
