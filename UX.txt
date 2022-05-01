@@ -1,5 +1,4 @@
----INTRODUÇÃO A BOAS PRÁTICAS EM UX DESING POR FABRÍCIO TEIXEIRA, CHECKLIST---
-
+# INTRODUÇÃO A BOAS PRÁTICAS EM UX DESING POR FABRÍCIO TEIXEIRA, CHECKLIST
 
 Reduzir, revelar, simplificar, padronizar, Adiar, priorização, testar, analisar
 
@@ -11,15 +10,14 @@ Agradabilidade: humanizar, considerar, alinhamento, facilitar, agilizar
 
 relevancia: entregar, acompanhamento, refletir, consulta, escolha, *melhorias*
 
-			---REGRAS PARA ESCOLHA DE CORES----
-COLOQUE AS CORES NO ASSET (ativos)
+## REGRAS PARA ESCOLHA DE CORES
 
 Primeiramente escolhe-se as cores predominantes tiradas, por exemplo, da logo.
 Secundarimanente, cria-se mais duas cores: uma mais clara e outra mais escura.
 Clara: tira-se 15 de brilho;
 Escura: tira-se 15 de saturação.
 
-			---SITES PARA FERRAMENTAS EXTRAS---
+## SITES PARA FERRAMENTAS EXTRAS
 https://sneakpeekit.com/--> site para imprimir modelos de browser e celulares para desing
 
 UI free: https://freebiesui.com/xd-freebies/
@@ -60,16 +58,3 @@ https://www.w3schools.com/jsref/jsref_obj_date.asp
 Eventos no <div>:
 https://www.w3schools.com/jsref/dom_obj_event.asp
 
----CONCEITOS--
-MVC - MODEL VIEW CONTROLLER (ARQUITETURA DO PROJETO)
-
---Como criar aplicativos com node: sanando a parte mais chata!---
-criar pasta central chamada src e então, subpastas com o nome de: config, controller, middlewares, model, routes.
-Na config, um arquivo chamado database.js para fazer a ligação com ele: mongo, firebase e afins.
-Na model, um arquivo chamado (feature do app)Model.js que crie o Schema (SQUEMA) de quais informações serão coletadas pelo app, macadress, nome, descrições e afins. 
-Na controller, um arquivo chamado (feature do app)Controller.js que possua o modelo importanto, portanto, "require('../model/Model')" e a classe que conterá as rotas para essa mesma feature : criar, atualizar, deletar, filtros e etc.
-Salienta que as funções são assincronas e o que ela almeja pegar no servidor tem "await", ou seja, ele espera pegar e devolver no servidor para não dar problema de renderização.
-(GET é sempre usando como parametro)
-No middlwerase, será colocado qualquer validação que deverá ser feita: checagem se houve a passagem de informação, checagem de número de telefone e afins.
-No routes, será colocado as rotas propriamente dito. Cria um arquivo chamado (feauture do app)Routes.js onde ele requere o controller e as validações. Além disso, coloca-se as rotas
-por meio da sehguinte estrutura: router.post/get/delete('/algumacoisa/algumacoisa/', validação(se houver), (feauture do app)Controller.nomedafuncao)
