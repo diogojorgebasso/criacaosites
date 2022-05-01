@@ -22,16 +22,30 @@ Baixe o astra-child no site: https://wpastra.com/child-theme-generator/.
 Agora chega a parte divertida: personalização do site.
 Baixe todos os plugins, extensões de funcionalidades, para se ter um site bonito, seguro e estável.
 Eu pessoalmente recomendo alguns, porque utilizava-os na [Ensinu](https://github.com/diogojorgebasso/ensinu):
-* WordFence Security
-* Google Analytics
-* Rank Math
-* Updraft Plus para backup do site no Google Drive!
-* Wp Fastest Cache
-* Elementor (a versão paga)
-* WP Forms
-* Cookie Notice
-* Tawk.to
-* Web Stories
+
+1. Starter Template
+2. WP FASTEST cache (o melhor)
+3. Updraft Plus
+4. Elementor
+5. Wordfence
+6. Web Stories
+7. Email subscriber
+8. Rank Math
+9. Site Kit
+11. Premium Addons for Elementor
+12. Cokie 
+13. Artiboti
+14. custom 404 pages
+
+### Se for o caso de woocomerce:
+  1. Brazilian Market on WooCommerce
+  2. Checkout Field Editor for WooCommerce
+  3. Claudio Sanches - Correios for WooCommerce
+  4. Claudio Sanches - PagSeguro for WooCommerce (se for usado o pag seguro, se não, baixar outro para paypal e afins)
+  5. Kadence WooCommerce Email Designer
+  6. Variation Swatches for WooCommerce (colocar cores diferentes para o mesmo produto)
+  7. WooCommerce Cart Abandonment Recovery
+  8. Yotpo Social Reviews for Woocommerce 
 
 Boa diversão na construção de seu novo site.
 
